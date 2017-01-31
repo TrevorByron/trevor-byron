@@ -1,0 +1,31 @@
+#tc-hero {
+
+background: url("../images/Team-captain-display.png") no-repeat;
+background-size: contain;
+background-position:top;
+}
+
+#tc-project-info {
+  background-color: rgba(254, 213, 134, .85);
+  height: 100%;
+  color: white;
+  padding-top: 250px;
+}
+#tc-part-2{
+    padding: 60px 10% 60px 10%;
+    video {
+      box-shadow: 1px 2px 6px rgba(033, 033, 033, .5);
+    }
+}
+
+#tc-part-3 {
+  .photos {
+    z-index: 2;
+  }
+  .words {
+    text-align: left;
+  }
+  video {
+    box-shadow: 1px 2px 6px rgba(033, 033, 033, .2);
+  }
+}

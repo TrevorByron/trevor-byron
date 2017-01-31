@@ -1,0 +1,223 @@
+@import "colors";
+
+.hero {
+  background: url("../images/CL-display.png") no-repeat;
+  background-size: contain;
+  height: 800px;
+  z-index: -4;
+ .project-info {
+   background-color: rgba(254, 213, 134, .85);
+   height: 100%;
+   color: white;
+   padding-top: 250px;
+   h1 {
+     font-size: 60px;
+     text-shadow: 1px 1px 1px rgba(033, 033, 033, .2);
+     text-transform: uppercase;
+     font-weight: 500;
+   }
+   p {
+     font-size: 20px;
+     text-shadow: 1px 1px 1px rgba(033, 033, 033, .2);
+     max-width: 700px;
+     margin: 0 auto;
+   }
+ }
+}
+.angle-parent{
+  overflow: hidden;
+  position: relative;
+  top: -170px;
+
+  .angle {
+    height: 200px;
+    background-color: white;
+    transform: rotate(4deg);
+    position: relative;
+    top: 100px;
+    width: 120%;
+    left: -10%;
+  }
+}
+.project-process {
+  #cl-design-display {
+    h3 {
+      font-size: 18px;
+    }
+  }
+  background-color: white;
+  .info {
+    position: relative;
+    top: -250px;
+
+  }
+  .part-1 {
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    overflow: hidden;
+    width: 100%;
+    padding: 5% 10% 0px 10%;
+    .design-display{
+      margin: 0 auto;
+    }
+    .photos {
+      img {
+        position: relative;
+        top: 20px;
+        box-shadow: none;
+
+
+      }
+    }
+
+  }
+  .words {
+    width: 50%;
+    min-width: 300px;
+    a {
+      text-decoration: none;
+      color: #333;
+    }
+    .icon-top{
+      img{
+        height: 30px;
+        margin-top: 30px;
+      }
+    }
+
+  h1 {
+  text-align: right;
+}
+}
+.photos {
+text-align: center;
+  width: 40%;
+    min-width: 300px;
+  img {
+    position: relative;
+    margin-bottom: 10px;
+    width: 100%;
+    box-shadow: 1px 1px 1px rgba(033, 033, 033, .2);
+    z-index: 1;
+
+
+  }
+}
+.process {
+  background-color: $offwhite;
+  width: 100%;
+}
+}
+.part-2 {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: $offwhite;
+  overflow: hidden;
+  padding: 60px 1% 60px 1%;
+  justify-content: space-around;
+  text-align: left;
+  .proposal {
+    text-align: center;
+    img{
+      width: 98%;
+      max-width: 700px;
+    }
+  }
+  .photos {
+  img {
+
+  }
+}
+}
+#cl-part-3 {
+  background-color: $offwhite;
+}
+.part-3 {
+  text-align: right;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  overflow: hidden;
+  width: 100%;
+  color: white;
+  padding: 5% 10% 0px 10%;
+  background-color: $blue;
+  .cl-stages {
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    justify-content: center;
+
+
+    img {
+      border-radius: 3px;
+      height: 500px;
+
+
+    }
+  }
+
+
+}
+#cl-bottom-angle {
+  background-color: $offwhite;
+}
+.bottom-angle-parent {
+  z-index: -1;
+  .bottom-angle {
+    width: 120%;
+    transform: rotate(-4deg);
+    height: 200px;
+    background-color: $blue;
+    position: relative;
+    left: -10%;
+    top: -100px;
+  }
+}
+
+.end {
+  margin: 0 auto;
+  .design-display{
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+}
+
+
+
+.parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: center;
+}
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.parallax__layer--base {
+  transform: translateZ(0);
+  position: relative;
+  top: 700px;
+
+
+}
+
+.parallax__layer--back {
+  transform: translateZ(-1px);
+
+}
+.parallax__layer--back {
+  transform: translateZ(-1px) scale(2);
+}

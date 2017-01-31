@@ -1,0 +1,33 @@
+#bb-hero {
+
+background: url("../images/Bucket-budget-display.png") no-repeat;
+background-size: contain;
+background-position:top;
+}
+
+#bb-project-info{
+     background-color: rgba(87, 187, 137, .85);
+}
+video{
+  margin: 0 auto;
+}
+.part-3 {
+  img {
+height:500px;
+
+margin: 10px;
+  z-index: 1;
+  }
+}
+
+#bb {
+background-color: $yellow;
+}
+
+#bb-angle {
+  background-color: $yellow;
+}
+.phone {
+  text-align: center;
+  z-index: 1;
+}
