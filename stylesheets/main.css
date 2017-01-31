@@ -135,7 +135,7 @@
   overflow: hidden;
   width: 100%;
   color: white;
-  padding: 5% 10% 0px 10%;
+  padding: 0px 1% 60px 1%;
   background-color: #4C5365; }
   .part-3 .cl-stages {
     z-index: 1;
@@ -262,13 +262,17 @@ video {
 
 .centered {
   min-width: 300px;
-  width: 80%;
+  width: 98%;
   text-align: center;
   margin: 0 auto; }
   .centered #no-shadow {
     width: 100%; }
   .centered .in-centered {
-    width: 100%; }
+    width: 100%;
+    max-width: 700px; }
+  .centered p {
+    max-width: 700px;
+    margin: 0 auto; }
 
 .sketches {
   width: 48%;
@@ -300,12 +304,14 @@ video {
   #tc-part-2 video {
     box-shadow: 1px 2px 6px rgba(33, 33, 33, 0.5); }
 
-#tc-part-3 .photos {
-  z-index: 2; }
-#tc-part-3 .words {
-  text-align: left; }
-#tc-part-3 video {
-  box-shadow: 1px 2px 6px rgba(33, 33, 33, 0.2); }
+#tc-part-3 {
+  padding-top: 60px; }
+  #tc-part-3 .photos {
+    z-index: 2; }
+  #tc-part-3 .words {
+    text-align: left; }
+  #tc-part-3 video {
+    box-shadow: 1px 2px 6px rgba(33, 33, 33, 0.2); }
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -608,8 +614,7 @@ main {
 
 .bg-offwhite {
   background-color: #EFEDE7;
-  padding-top: 60px;
-  padding-bottom: 100px;
+  padding: 0px 1% 100px 1%;
   margin-bottom: -200px; }
 
 /* Break points at bottom so that they override code above */
